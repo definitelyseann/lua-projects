@@ -12,7 +12,7 @@ function whitelisted()
 		if table.find(ModIDS, player.UserId) then
 			if player.Character then
 				if player.Character.Parent.Name == 'Players' then
-					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. player.DisplayName)
+					player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. player.DisplayName)
 				end
 			end
 		end
