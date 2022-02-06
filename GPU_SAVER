@@ -1,0 +1,65 @@
+--[[
+
+▄▄▄█████▓▓█████  ▄████▄   ██░ ██  █     █░ ▄▄▄       ██▀███  ▓█████ 
+▓  ██▒ ▓▒▓█   ▀ ▒██▀ ▀█  ▓██░ ██▒▓█░ █ ░█░▒████▄    ▓██ ▒ ██▒▓█   ▀ 
+▒ ▓██░ ▒░▒███   ▒▓█    ▄ ▒██▀▀██░▒█░ █ ░█ ▒██  ▀█▄  ▓██ ░▄█ ▒▒███   
+░ ▓██▓ ░ ▒▓█  ▄ ▒▓▓▄ ▄██▒░▓█ ░██ ░█░ █ ░█ ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓█  ▄ 
+  ▒██▒ ░ ░▒████▒▒ ▓███▀ ░░▓█▒░██▓░░██▒██▓  ▓█   ▓██▒░██▓ ▒██▒░▒████▒
+ ▒ ░░   ░░ ▒░ ░░ ░▒ ▒  ░ ▒ ░░▒░▒░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒▓ ░▒▓░░░ ▒░ ░
+   ░     ░ ░  ░  ░  ▒    ▒ ░▒░ ░  ▒ ░ ░    ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░
+    ░         ░   ░         ░  ░░ ░  ░   ░    ░   ▒     ░░   ░    ░   
+              ░  ░░ ░       ░  ░  ░    ░          ░  ░   ░        ░  ░
+              
+]]
+
+local Holder = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+
+Holder.Name = "Holder"
+Holder.Parent = game.CoreGui
+Holder.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Holder
+Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.34374997, 0, -0.585276067, 0)
+Frame.Size = UDim2.new(0, 10000, 0, 10000)
+
+TextLabel.Parent = Holder
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.499479234, 0, 0.490673363, 0)
+TextLabel.Size = UDim2.new(0, 347, 0, 65)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "ALT CONTROL DISABLES 3DRENDERING TO REDUCE CPU USAGE"
+TextLabel.TextColor3 = Color3.fromRGB(74, 74, 74)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Holder
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.499479175, 0, 0.388766348, 0)
+TextLabel_2.Size = UDim2.new(0, 299, 0, 38)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "discord.gg/PPFpgkgKj7"
+TextLabel_2.TextColor3 = Color3.fromRGB(74, 74, 74)
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Holder
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.499479175, 0, 0.601321816, 0)
+TextLabel_3.Size = UDim2.new(0, 185, 0, 52)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "TECHWARE PREMIUM V.1.0"
+TextLabel_3.TextColor3 = Color3.fromRGB(74, 74, 74)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
