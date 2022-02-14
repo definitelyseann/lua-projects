@@ -59,7 +59,7 @@ TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.Position = UDim2.new(0.499479175, 0, 0.601321816, 0)
 TextLabel_3.Size = UDim2.new(0, 185, 0, 52)
 TextLabel_3.Font = Enum.Font.Gotham
-TextLabel_3.Text = "TECHWARE PREMIUM V.1.0"
+TextLabel_3.Text = script.Parent.Text == game.Players.LocalPlayer.Name
 TextLabel_3.TextColor3 = Color3.fromRGB(74, 74, 74)
 TextLabel_3.TextSize = 20.000
 TextLabel_3.TextWrapped = true
