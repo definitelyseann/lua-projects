@@ -1,0 +1,62 @@
+HOLDER = Instance.new("ScreenGui")
+Frame = Instance.new("Frame")
+TextLabel = Instance.new("TextLabel")
+TextLabel_2 = Instance.new("TextLabel")
+TextLabel_3 = Instance.new("TextLabel")
+
+HOLDER.Name = "HOLDER"
+HOLDER.Parent = game.CoreGui
+HOLDER.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+HOLDER.IgnoreGuiInset = true
+
+Frame.Parent = HOLDER
+Frame.Active = true
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel.Parent = Frame
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.5, 0, 0.419999987, 0)
+TextLabel.Size = UDim2.new(0, 279, 0, 34)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = ".gg/PPFpgkgKj7"
+TextLabel.TextColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(0, 312, 0, 34)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "TECHWARE PREMIUM"
+TextLabel_2.TextColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.581251442, 0)
+TextLabel_3.Size = UDim2.new(0, 321, 0, 35)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "OnlyTwentyCharacters"
+TextLabel_3.TextColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+function USERNAME()
+	local script = Instance.new('LocalScript', TextLabel_3)
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(USERNAME)()
