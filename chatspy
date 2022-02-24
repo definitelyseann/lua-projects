@@ -7,9 +7,9 @@ spyOnMyself = true
 public = false
 publicItalics = true
 privateProperties = {
-	Color = Color3.fromRGB(64, 64, 64); 
-	Font = Enum.Font.Gotham;
-	TextSize = 18;
+	Color = Color3.fromRGB(187, 187, 187); 
+	Font = Enum.Font.SourceSans;
+	TextSize = 15;
 }
 local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
