@@ -1,4 +1,6 @@
--- // credits to whoever made this script
+--[[
+NOTE: I DID NOT MAKE THIS SCRIPT SO CREDITS ON WHOEVER MADE THIS
+]]
 
 enabled = true
 spyOnMyself = true
