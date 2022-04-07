@@ -1,3 +1,3 @@
-scripts made by highway8303/<@755705944813600779>
+scripts made by me (sean#4412/<@755705944813600779>)
 
 https://discord.gg/PPFpgkgKj7
