@@ -2,6 +2,8 @@ scripts made by me (sean#4412/<@755705944813600779>)
 
 main -> sean#4412 / 755705944813600779 | verify my ID before chatting with me
 
+languages i know: lua, and a little bit of javascript
+
 my server: https://discord.gg/PPFpgkgKj7
 
 
