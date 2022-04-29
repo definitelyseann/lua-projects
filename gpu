@@ -1,16 +1,19 @@
-HOLDER = Instance.new("ScreenGui")
+Holder = Instance.new("ScreenGui")
 Frame = Instance.new("Frame")
+
 TextLabel = Instance.new("TextLabel")
 TextLabel_2 = Instance.new("TextLabel")
 TextLabel_3 = Instance.new("TextLabel")
+TextLabel_4 = Instance.new("TextLabel")TextLabel_5 = Instance.new("TextLabel")
+TextLabel_6 = Instance.new("TextLabel")
+TextLabel_7 = Instance.new("TextLabel")
+TextLabel_8 = Instance.new("TextLabel")
 
-HOLDER.Name = "HOLDER"
-HOLDER.Parent = game.CoreGui
-HOLDER.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-HOLDER.IgnoreGuiInset = true
+Holder.Parent = game.CoreGui
+Holder.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Holder.IgnoreGuiInset = true
 
-Frame.Parent = HOLDER
-Frame.Active = true
+Frame.Parent = Holder
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -20,11 +23,11 @@ TextLabel.Parent = Frame
 TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.5, 0, 0.419999987, 0)
-TextLabel.Size = UDim2.new(0, 279, 0, 34)
+TextLabel.Position = UDim2.new(0.5, 0, 0.451585203, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 45)
 TextLabel.Font = Enum.Font.Gotham
-TextLabel.Text = ".gg/PPFpgkgKj7"
-TextLabel.TextColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel.Text = "V4"
+TextLabel.TextColor3 = Color3.fromRGB(185, 185, 185)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
@@ -33,11 +36,11 @@ TextLabel_2.Parent = Frame
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_2.Size = UDim2.new(0, 312, 0, 34)
+TextLabel_2.Position = UDim2.new(0.499739617, 0, 0.499261051, 0)
+TextLabel_2.Size = UDim2.new(0, 212, 0, 29)
 TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "TECHWARE PREMIUM"
-TextLabel_2.TextColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel_2.Text = "OnlyTwentyCharacters"
+TextLabel_2.TextColor3 = Color3.fromRGB(185, 185, 185)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
@@ -46,17 +49,131 @@ TextLabel_3.Parent = Frame
 TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.5, 0, 0.581251442, 0)
-TextLabel_3.Size = UDim2.new(0, 321, 0, 35)
+TextLabel_3.Position = UDim2.new(0.460156262, 0, 0.542169213, 0)
+TextLabel_3.Size = UDim2.new(0, 145, 0, 21)
 TextLabel_3.Font = Enum.Font.Gotham
-TextLabel_3.Text = "OnlyTwentyCharacters"
-TextLabel_3.TextColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel_3.Text = "PD:"
+TextLabel_3.TextColor3 = Color3.fromRGB(185, 185, 185)
 TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
 
-function USERNAME()
-	local script = Instance.new('LocalScript', TextLabel_3)
+TextLabel_4.Parent = Frame
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.535937488, 0, 0.542169213, 0)
+TextLabel_4.Size = UDim2.new(0, 145, 0, 21)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "nil"
+TextLabel_4.TextColor3 = Color3.fromRGB(185, 185, 185)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Right
+
+TextLabel_5.Parent = Frame
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.535979152, 0, 0.574999988, 0)
+TextLabel_5.Size = UDim2.new(0, 145, 0, 21)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "nil"
+TextLabel_5.TextColor3 = Color3.fromRGB(185, 185, 185)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Right
+
+TextLabel_6.Parent = Frame
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.459937513, 0, 0.574999988, 0)
+TextLabel_6.Size = UDim2.new(0, 145, 0, 21)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "FPS:"
+TextLabel_6.TextColor3 = Color3.fromRGB(185, 185, 185)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_7.Parent = Frame
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.459828109, 0, 0.609000027, 0)
+TextLabel_7.Size = UDim2.new(0, 145, 0, 21)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "Ping"
+TextLabel_7.TextColor3 = Color3.fromRGB(185, 185, 185)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_8.Parent = Frame
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.535999954, 0, 0.609000027, 0)
+TextLabel_8.Size = UDim2.new(0, 145, 0, 21)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "nil"
+TextLabel_8.TextColor3 = Color3.fromRGB(185, 185, 185)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Right
+
+function runScript() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-USERNAME()
+coroutine.wrap(runScript)()
+
+function runScript_2()
+	local script = Instance.new('LocalScript', TextLabel_4)
+	while wait() do
+		pcall(function()
+			local amount = 0
+			for i,v in pairs(game.Workspace.Ignored.Drop:GetChildren()) do
+				if v.Name == "MoneyDrop" then
+					local cash = string.split(v.BillboardGui.TextLabel.Text,"$")[2]
+					if string.match(cash,',') then
+						amount = amount + cash:gsub("%,","")
+					else
+						amount = amount + cash
+					end
+				end
+			end
+			local function checking(amount)
+				amount = tostring(amount)
+				return amount:reverse():gsub("%d%d%d", "%1,"):reverse():gsub("^,", "")
+			end
+			script.Parent.Text = "$"..checking(amount)
+		end)
+	end
+end
+coroutine.wrap(runScript_2)()
+
+function runScript_3()
+	local script = Instance.new('LocalScript', TextLabel_5)
+	game:GetService("RunService").RenderStepped:Connect(function(TimeBetween)
+		local FPS = math.floor(1/TimeBetween)
+		script.Parent.Text = FPS  
+	end)
+end
+coroutine.wrap(runScript_3)()
+
+function runScript_4()
+	local script = Instance.new('LocalScript', TextLabel_8)
+	while true do wait()
+	local ping = string.split(game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString(), " ")[1]
+		script.Parent.Text = ping.."ms"
+	end
+end
+coroutine.wrap(runScript_4)()
