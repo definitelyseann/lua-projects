@@ -1,0 +1,18 @@
+_G.Key = "key here"
+
+getgenv().Settings = {
+    Host = {'username'}, --> case sensitive (you can add many hosts as you want)
+    Prefix = ".",
+    FPS = 5, --> auto fps cap to reduce CPU upon executing
+    CrashAmt = 200, --> 200 is recommended
+    AdvertCooldown = 5,
+    LowGFX = false,
+}
+
+--> 42 ALTS MAX, JUST ADD MORE LINES
+getgenv().Alts = {
+    Alt1 = 1234567,
+    Alt2 = 1234567,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S9AN/lua-projects/main/v4", true))()
