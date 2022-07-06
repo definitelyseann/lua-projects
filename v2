@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick('v3 is out. Check #loadstring')
+game:GetService("Players").LocalPlayer:Kick('\nnew versions are out, check https://discord.gg/PaVB7TT5Qd for the loadstrings')
