@@ -1,37 +1,36 @@
 -- credits to whoever made this thx
-
 local decals = true
 
-		workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
-		workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
-		workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
-		workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0
-		game:GetService("Lighting").GlobalShadows = false
-		game:GetService("Lighting").FogEnd = 9e9
-		game:GetService("Lighting").Brightness = 0
+workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
+workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
+workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
+workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0
+game:GetService("Lighting").GlobalShadows = false
+game:GetService("Lighting").FogEnd = 9e9
+game:GetService("Lighting").Brightness = 0
 
-		settings().Rendering.QualityLevel = "Level01"
-		for i, v in pairs(game:GetDescendants()) do
-			if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
-				v.Material = "Plastic"
-				v.Reflectance = 0
-			elseif v:IsA("Decal") or v:IsA("Texture") and decals then
-				v.Transparency = 1
-			elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
-				v.Lifetime = NumberRange.new(0)
-			elseif v:IsA("Explosion") then
-				v.BlastPressure = 1
-				v.BlastRadius = 1
-			elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
-				v.Enabled = false
-			elseif v:IsA("MeshPart") then
-				v.Material = "Plastic"
-				v.Reflectance = 0
-				v.TextureID = 10385902758728957
-			end
-		end
-		for i, v in pairs(game:GetService("Lighting"):GetChildren()) do
-			if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or v:IsA("BloomEffect") or v:IsA("DepthOfFieldEffect") then
-				v.Enabled = false
-			end
-		end
+settings().Rendering.QualityLevel = "Level01"
+for i, v in pairs(game:GetDescendants()) do
+	if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+		v.Material = "Plastic"
+		v.Reflectance = 0
+	elseif v:IsA("Decal") or v:IsA("Texture") and decals then
+		v.Transparency = 1
+	elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+		v.Lifetime = NumberRange.new(0)
+	elseif v:IsA("Explosion") then
+		v.BlastPressure = 1
+		v.BlastRadius = 1
+	elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+		v.Enabled = false
+	elseif v:IsA("MeshPart") then
+		v.Material = "Plastic"
+		v.Reflectance = 0
+		v.TextureID = 10385902758728957
+	end
+end
+for i, v in pairs(game:GetService("Lighting"):GetChildren()) do
+	if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or v:IsA("BloomEffect") or v:IsA("DepthOfFieldEffect") then
+		v.Enabled = false
+	end
+end
