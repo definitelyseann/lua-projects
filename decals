@@ -1,6 +1,6 @@
 -- credits to whoever made this thx
-local decals = true
 
+local decals = true
 workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
 workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
 workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
